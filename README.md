@@ -20,7 +20,7 @@ Edit JSON files in `src/_data/` to update publications, experience, awards, or p
 
 ## Assets
 
-Binary assets (icons, CV) are excluded. Replace the SVG placeholders in `img/` and add `Ege_Cirakman_CV.pdf` to `files/` when deploying.
+Binary assets (icons, CV) are ignored by git. Replace the SVG placeholders in `img/` and add `Ege_Cirakman_CV.pdf` to `files/` when deploying.
 
 
 ## Deploy

@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
       input: "src",
       includes: "_includes",
       data: "_data",
+      // Output build to docs/ for GitHub Pages
       output: "docs"
     },
     markdownTemplateEngine: "njk",
