@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+title: Experience
+description: "Research experience of Ege Çırakman"
+---
+<h1>Experience</h1>
+<h2>International Research</h2>
+{% for item in experience.international %}
+<article>
+  <h3>{{ item.role }}, {{ item.org }}</h3>
+  <p>{{ item.dates }}</p>
+  <ul>
+    {% for b in item.bullets %}
+    <li>{{ b }}</li>
+    {% endfor %}
+  </ul>
+</article>
+{% endfor %}
+<h2>National Research</h2>
+{% for item in experience.national %}
+<article>
+  <h3>{{ item.role }}, {{ item.org }}</h3>
+  <p>{{ item.dates }}</p>
+  <ul>
+    {% for b in item.bullets %}
+    <li>{{ b }}</li>
+    {% endfor %}
+  </ul>
+</article>
+{% endfor %}

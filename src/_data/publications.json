@@ -1,0 +1,67 @@
+[
+  {
+    "year": 2025,
+    "slug": "wavelet-sgm-seismic-inversion",
+    "title": "Efficient and scalable posterior surrogate for seismic inversion via wavelet score-based generative models",
+    "authors": "**E. Çırakman***, H. T. Erdinc*, F. J. Herrmann",
+    "venue": "IMAGE 2025 (International Meeting for Applied Geoscience & Energy), oral",
+    "status": "published",
+    "teaser": "Wavelet-domain conditional SGM surrogate with EDM scheduling; ~73% faster sampling and ~50% lower GPU memory at matched fidelity.",
+    "links": {
+      "pdf": "https://slim.gatech.edu/Publications/Public/Conferences/SEG/2025/cirakman2025IMAGEesp/IMAGE_Ege.pdf",
+      "page": "https://slim.gatech.edu/content/efficient-and-scalable-posterior-surrogate-seismic-inversion-wavelet-score-based-generative"
+    }
+  },
+  {
+    "year": 2025,
+    "slug": "dynamical-phases-rnns",
+    "title": "Dynamical phases of short-term memory mechanisms in RNNs",
+    "authors": "B. Kurtkaya, **E. Çırakman**, F. Dinc, M. Yüksekgönül, M. Blanco-Pozo, M. J. Schnitzer, Y. Yemez, H. Tanaka, P. Yuan, N. Miolane",
+    "venue": "ICML 2025",
+    "status": "published",
+    "teaser": "Two STM mechanisms—slow‑point sequences vs. limit cycles—with critical learning‑rate scaling; validated on ~80k RNNs.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2502.17433",
+      "icml": "https://icml.cc/virtual/2025/poster/43521",
+      "openreview": "https://openreview.net/forum?id=ybBuwgOPOd"
+    }
+  },
+  {
+    "year": 2025,
+    "slug": "ghost-mechanism-abrupt-learning",
+    "title": "A ghost mechanism: An analytical model of abrupt learning",
+    "authors": "F. Dinc, **E. Çırakman**, Y. Jiang, M. Yüksekgönül, M. J. Schnitzer, H. Tanaka",
+    "venue": "Physical Review X (PRX)",
+    "status": "accepted",
+    "teaser": "Ghost‑induced transient bottlenecks explain abrupt learning; exact critical LR law and remedies via uncertainty & rank.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2501.02378"
+    }
+  },
+  {
+    "year": 2024,
+    "slug": "trustworthy-sr-diffusion",
+    "title": "Trustworthy SR: Resolving ambiguity in image super‑resolution via diffusion models and human feedback",
+    "authors": "C. Korkmaz, **E. Çırakman**, A. M. Tekalp, Z. Doğan",
+    "venue": "ICIP 2024",
+    "status": "published",
+    "teaser": "Human‑in‑the‑loop selection + ensembling for diffusion SR; preference‑informed evaluation when metrics misalign with trust.",
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2402.07597",
+      "program": "https://cmsworkshops.com/ICIP2024/view_paper.php?PaperNum=1937"
+    }
+  },
+  {
+    "year": 2022,
+    "slug": "bearing-defect-detection",
+    "title": "A Big Data Application in Manufacturing Industry—Computer Vision to Detect Defects on Bearings",
+    "authors": "P. Ünal, **E. Çırakman**, et al.",
+    "venue": "IEEE Big Data 2022",
+    "status": "published",
+    "teaser": "TC‑VISION: real‑time CNN optical inspection for rolling‑bearing QC; hardware + big‑data pipeline.",
+    "links": {
+      "doi": "https://doi.org/10.1109/BigData55660.2022.10020608",
+      "rg": "https://www.researchgate.net/publication/367456989_A_Big_Data_Application_in_Manufacturing_Industry-Computer_Vision_to_Detect_Defects_on_Bearings"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+title: Publications
+description: "Publications by Ege Çırakman"
+---
+<h1>Publications</h1>
+{% for pub in publications | sort(attribute='year') | reverse %}
+<article>
+  <h2><a href="/publications/{{ pub.slug }}/">{{ pub.title }}</a></h2>
+  <p><strong>{{ pub.venue }}</strong> – {{ pub.year }}</p>
+  <p>{{ pub.authors | safe }}</p>
+  <p>{{ pub.teaser }}</p>
+  <p>Status: {{ pub.status }}</p>
+  <p>
+    {% for key, link in pub.links %}
+      <a href="{{ link }}" target="_blank" rel="noopener" class="external">{{ key | upper }}</a>{% if not loop.last %} · {% endif %}
+    {% endfor %}
+  </p>
+</article>
+{% endfor %}

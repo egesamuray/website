@@ -1,0 +1,44 @@
+{
+  "international": [
+    {
+      "org": "Georgia Institute of Technology, SLIM",
+      "role": "Research Intern",
+      "dates": "Dec 2024–Present",
+      "bullets": [
+        "Conditional WSGM surrogate in wavelet domain; EDM schedules; large memory/time gains with calibrated UQ (32²–256²).",
+        "Heavy‑tailed diffusion schedules for minority/outlier coverage; 1D→2D guidance for well‑logs.",
+        "Curvelet‑adapted diffusion + Curvelet Neural Operator; automated data generation/imaging with JUDI/Devito."
+      ]
+    },
+    {
+      "org": "Stanford University (CNC Program)",
+      "role": "Research Intern",
+      "dates": "Jan 2024–Dec 2024",
+      "bullets": [
+        "FORCE learning in a dynamical‑systems lens; stability/chaos and memory‑parameter scaling; timed working‑memory tasks.",
+        "Co‑developed ghost mechanism theory; mapped slow‑point vs. limit‑cycle phases; critical LR scaling and no‑learning zones.",
+        "Stabilization: increase trainable rank + reduce output confidence; reproducible low/full‑rank RNN sweeps."
+      ]
+    }
+  ],
+  "national": [
+    {
+      "org": "Koç University, KUIS AI Center",
+      "role": "Research Intern",
+      "dates": "2021–Jan 2024",
+      "bullets": [
+        "SwinIR customizations for single‑image SR; rigorous benchmarking of capacity vs. fidelity.",
+        "Diffusion SR with human‑in‑the‑loop selection + ensemble decoding; universal IQA protocols with PSNR/SSIM/LPIPS/DISTS."
+      ]
+    },
+    {
+      "org": "TEKNOPAR, Ankara",
+      "role": "Researcher",
+      "dates": "2022–2023",
+      "bullets": [
+        "Real‑time patch‑wise SVDD pipeline for anomaly detection on manufacturing lines.",
+        "Digital twins integrating sensor telemetry with data‑driven models for production monitoring."
+      ]
+    }
+  ]
+}

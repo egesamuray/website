@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: publications
+  size: 1
+  alias: pub
+permalink: "/publications/{{ pub.slug }}/"
+computed:
+  title: "{{ pub.title }}"
+  description: "{{ pub.teaser }}"
+  jsonld: |
+    {
+      "@context": "https://schema.org",
+      "@type": "ScholarlyArticle",
+      "headline": "{{ pub.title | escape }}",
+      "author": [{% for a in pub.authors | replace("**", "") | split(",") %}{"name": "{{ a | trim }}"}{% if not loop.last %},{% endif %}{% endfor %}],
+      "isPartOf": {"name": "{{ pub.venue | escape }}"},
+      "datePublished": "{{ pub.year }}",
+      {% if pub.links.doi %}"identifier": "{{ pub.links.doi }}",{% endif %}
+      {% if pub.links.arxiv %}"sameAs": "{{ pub.links.arxiv }}",{% endif %}
+      "url": "{{ site.url }}/publications/{{ pub.slug }}/"
+    }
+---
+<h1>{{ pub.title }}</h1>
+<p><strong>{{ pub.venue }}</strong> – {{ pub.year }}</p>
+<p>{{ pub.authors | safe }}</p>
+<p>{{ pub.teaser }}</p>
+<p>Status: {{ pub.status }}</p>
+<p>
+  {% for key, link in pub.links %}
+    <a href="{{ link }}" target="_blank" rel="noopener" class="external">{{ key | upper }}</a>{% if not loop.last %} · {% endif %}
+  {% endfor %}
+</p>
+<p><a href="/publications/">Back to publications</a></p>

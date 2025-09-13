@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+title: Home
+description: "Ege Çırakman – generative modeling and dynamical systems"
+jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ege Çırakman",
+    "email": "mailto:cirakman18@itu.edu.tr",
+    "url": "https://egecirakman.com",
+    "sameAs": [
+      "https://scholar.google.com/citations?user=ZX7U-TgAAAAJ&hl=en",
+      "https://www.linkedin.com/in/ege-%C3%A7%C4%B1rakman-527759200/"
+    ]
+  }
+---
+<h1>{{ person.name }}</h1>
+<p>{{ site.tagline }}</p>
+<ul>
+  <li><a href="{{ person.profiles.scholar }}" target="_blank" rel="noopener" class="external">Google Scholar</a></li>
+  <li><a href="{{ person.profiles.linkedin }}" target="_blank" rel="noopener" class="external">LinkedIn</a></li>
+  <li><a href="{{ person.profiles.email }}" target="_blank" rel="noopener" class="external">Email</a></li>
+  <li><a href="{{ person.cv_pdf_url }}" target="_blank" rel="noopener" class="external">CV PDF</a></li>
+</ul>
+<p>{{ person.education[0].degree }}, {{ person.education[0].institution }}.<br>{{ person.education[0].notes }}</p>

@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+title: Projects
+description: "Projects by Ege Çırakman"
+---
+<h1>Projects</h1>
+{% for p in projects %}
+<article>
+  <h2>{{ p.name }}</h2>
+  <p>{{ p.summary }}</p>
+</article>
+{% endfor %}
