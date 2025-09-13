@@ -1,0 +1,30 @@
+{
+  "name": "Ege Çırakman",
+  "email": "cirakman18@itu.edu.tr",
+  "location": "Istanbul, Türkiye",
+  "education": [
+    {
+      "degree": "B.Sc., Control & Automation Engineering (expected Jun 2026)",
+      "institution": "Istanbul Technical University (ITU)",
+      "notes": "GPA 3.71/4.00; Department rank 1/101 (end of 2024)."
+    }
+  ],
+  "profiles": {
+    "scholar": "https://scholar.google.com/citations?user=ZX7U-TgAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/ege-%C3%A7%C4%B1rakman-527759200/",
+    "email": "mailto:cirakman18@itu.edu.tr"
+  },
+  "interests": [
+    "Generative modeling (diffusion/score-based); wavelet & curvelet priors",
+    "Simulation-based inference; efficient/conditional SGMs",
+    "Inverse problems & seismic imaging",
+    "Dynamical systems in ML: abrupt learning, working memory, phase transitions in RNNs",
+    "Trustworthy evaluation for one-to-many problems (e.g., SR)"
+  ],
+  "skills": {
+    "programming": "Python, C/C++, MATLAB",
+    "frameworks": "PyTorch, TensorFlow, OpenCV",
+    "systems": "CUDA, Docker, Linux, ROS, Simulink, Devito, JUDI"
+  },
+  "cv_pdf_url": "/files/Ege_Cirakman_CV.pdf"
+}

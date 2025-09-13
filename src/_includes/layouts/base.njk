@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} | {{ site.title }}</title>
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/img/favicon.svg">
+  <meta name="description" content="{{ description | default(site.description) }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script src="/js/theme.js" defer></script>
+  {% if extra_js %}<script src="{{ extra_js }}" defer></script>{% endif %}
+  <meta property="og:title" content="{{ title }} | {{ site.title }}">
+  <meta property="og:description" content="{{ description | default(site.description) }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/img/og.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ title }} | {{ site.title }}">
+  <meta name="twitter:description" content="{{ description | default(site.description) }}">
+  {% if jsonld %}<script type="application/ld+json">{{ jsonld | safe }}</script>{% endif %}
+  <meta name="twitter:image" content="{{ site.url }}/img/og.svg">
+</head>
+<body id="top">
+<a class="skip-link" href="#content">Skip to content</a>
+<header>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/research/">Research</a></li>
+      <li><a href="/publications/">Publications</a></li>
+      <li><a href="/experience/">Experience</a></li>
+      <li><a href="/awards/">Awards</a></li>
+      <li><a href="/projects/">Projects</a></li>
+      <li><a href="/cv/">CV</a></li>
+      <li><a href="/contact/">Contact</a></li>
+    </ul>
+  </nav>
+  <button id="theme-toggle" class="dark-toggle" aria-label="Toggle dark mode">☾</button>
+</header>
+<main id="content">
+  {{ content | safe }}
+  <a class="back-to-top" href="#top">Back to top</a>
+</main>
+<footer>
+  <p>&copy; {{ site.title }}</p>
+</footer>
+</body>
+</html>
