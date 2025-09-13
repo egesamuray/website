@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Cryptocurrency price forecasting with BERT+LSTM",
+    "summary": "Contextual embeddings + sequence models for short‑/long‑horizon forecasts under high volatility."
+  },
+  {
+    "name": "ITU AUV Team",
+    "summary": "Vision pipeline + ROS integration for autonomous navigation."
+  }
+]

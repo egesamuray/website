@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+title: Research
+description: "Research interests of Ege Çırakman"
+---
+<h1>Research</h1>
+<p>I develop fast probabilistic imaging and dynamical-system models for scientific data. My work spans score-based generative models for inverse problems, simulation-based inference, and theory of learning dynamics in recurrent networks.</p>
+<ul>
+{% for item in person.interests %}
+  <li>{{ item }}</li>
+{% endfor %}
+</ul>

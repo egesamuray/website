@@ -1,0 +1,8 @@
+---
+layout: layouts/base.njk
+title: CV
+description: "Curriculum vitae"
+---
+<h1>CV</h1>
+<p><a href="{{ person.cv_pdf_url | url }}" download target="_blank" rel="noopener" class="external">Download CV (PDF)</a></p>
+<iframe src="{{ person.cv_pdf_url | url }}" width="100%" height="800" title="CV PDF"></iframe>
