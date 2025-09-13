@@ -30,3 +30,11 @@ The built site in `_site/` is static and can be hosted on GitHub Pages, Netlify,
 ### Custom Domain
 
 Point your domain's DNS to your hosting provider and configure their custom domain settings.
+
+## Source
+
+You can create a ZIP of the current source with:
+
+```bash
+git archive -o website-source.zip HEAD
+```
