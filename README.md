@@ -17,6 +17,7 @@ npm run build  # production build to _site/
 ## Content
 
 Edit JSON files in `src/_data/` to update publications, experience, awards, or projects. Pages are Nunjucks templates in `src/`.
+
 ## Assets
 
 Binary assets (icons, CV) are excluded. Replace the SVG placeholders in `img/` and add `Ege_Cirakman_CV.pdf` to `files/` when deploying.
