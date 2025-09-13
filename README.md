@@ -11,7 +11,7 @@ Static site built with [Eleventy](https://www.11ty.dev/).
 ```bash
 npm install
 npm start   # local dev server
-npm run build  # production build to _site/
+npm run build  # production build to docs/
 ```
 
 ## Content
@@ -25,7 +25,11 @@ Binary assets (icons, CV) are excluded. Replace the SVG placeholders in `img/` a
 
 ## Deploy
 
-The built site in `_site/` is static and can be hosted on GitHub Pages, Netlify, or any static host. Upload contents of `_site/`.
+The built site in `docs/` is static and can be hosted on GitHub Pages, Netlify, or any static host. Upload contents of `docs/`.
+
+### GitHub Pages
+
+Commit the generated `docs/` folder and enable GitHub Pages for this repository, choosing **Deploy from `docs/`** under repository settings. Your site will be available at `https://<username>.github.io/<repo>/`.
 
 ### Custom Domain
 
