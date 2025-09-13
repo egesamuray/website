@@ -1,7 +1,5 @@
-Here’s the cleaned version of your README in **copy-paste ready format**:
 
-````markdown
-# Ege Çırakman Academic Website
+## Ege Çırakman Academic Website
 
 Static site built with [Eleventy](https://www.11ty.dev/).
 
@@ -16,11 +14,11 @@ npm start   # local dev server
 npm run build  # production build to docs/
 ````
 
-> Ensure Eleventy outputs to `docs/` (for GitHub Pages). In `.eleventy.js`:
->
-> ```js
-> module.exports = { dir: { output: "docs" } };
-> ```
+ Ensure Eleventy outputs to `docs/` (for GitHub Pages). In `.eleventy.js`:
+
+ ```js
+ module.exports = { dir: { output: "docs" } };
+ ```
 
 ## Content
 
@@ -52,9 +50,4 @@ You can create a ZIP of the current source with:
 
 ```bash
 git archive -o website-source.zip HEAD
-```
-
-```
-
-Do you want me to also give you a **ready-to-run `.eleventy.js` config** snippet with `docs/` already set, so you don’t have to tweak it manually?
 ```
